@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Đăng ký tài khoản</description>
+   <name>Dang ky tai khoan bang Facebook</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d974fe77-9134-47d4-ac3a-78d35fecd159</testCaseGuid>
+</TestCaseEntity>
