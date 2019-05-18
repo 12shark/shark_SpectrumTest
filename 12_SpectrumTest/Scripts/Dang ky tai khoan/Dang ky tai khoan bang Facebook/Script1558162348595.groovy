@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://spectrum.chat/')
+WebUI.navigateToUrl(url)
 
 WebUI.maximizeWindow()
 
@@ -25,10 +25,10 @@ WebUI.click(findTestObject('Page_Spectrum/button_Log in or sign up'))
 
 WebUI.click(findTestObject('Page_Spectrum/span_Sign in with Facebook'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Log in to Facebook  Facebook/input_Log in to Facebook_email'), '0355766369')
+WebUI.setText(findTestObject('Object Repository/Page_Log in to Facebook  Facebook/input_Log in to Facebook_email'), username)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Log in to Facebook  Facebook/input_Log in to Facebook_pass'), 
-    '12FH+2FF7HnqKYAbf+0XZg==')
+    password)
 
 WebUI.click(findTestObject('Object Repository/Page_Log in to Facebook  Facebook/button_Log In'))
 
