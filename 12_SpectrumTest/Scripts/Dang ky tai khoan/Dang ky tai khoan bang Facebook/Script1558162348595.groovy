@@ -15,11 +15,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(url)
-
 WebUI.maximizeWindow()
 
-WebUI.waitForElementClickable(findTestObject('Page_Spectrum/button_Log in or sign up'), 5)
+WebUI.navigateToUrl(url)
 
 WebUI.click(findTestObject('Page_Spectrum/button_Log in or sign up'))
 
@@ -34,7 +32,9 @@ WebUI.click(findTestObject('Object Repository/Page_Log in to Facebook  Facebook/
 
 WebUI.click(findTestObject('Page_Dang nhp bng Facebook/button_Tip tc di tn Chn'))
 
-WebUI.click(findTestObject('Page_/button_Save and Continue'))
+WebUI.setText(findTestObject('Object Repository/Page_/input_Create a username_style__StyledInput-npkcpv-2 eJtFFl'), name)
+
+WebUI.click(findTestObject('Object Repository/Page_/button_Save and Continue'))
 
 WebUI.closeBrowser()
 

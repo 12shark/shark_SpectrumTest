@@ -19,24 +19,15 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(url)
 
-WebUI.click(findTestObject('Object Repository/Page_Spectrum/button_Log in or sign up'))
+WebUI.click(findTestObject('Page_Spectrum/button_Log in or sign up'))
 
-WebUI.click(findTestObject('Object Repository/Page_Spectrum/button_Log in or sign up'))
+WebUI.click(findTestObject('Page_Spectrum/span_Sign in with GitHub'))
 
-WebUI.click(findTestObject('Object Repository/Page_Spectrum/span_Sign in with Google'))
+WebUI.setText(findTestObject('Object Repository/Page_Sign in to GitHub  GitHub/input_Username or email address_login'), 
+    username)
 
-WebUI.setText(findTestObject('Object Repository/Page_ng nhp - Ti khon Google/input_Spectrum_identifier'), username)
-
-WebUI.click(findTestObject('Object Repository/Page_ng nhp - Ti khon Google/span_Tip theo'))
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_ng nhp - Ti khon Google/input_Qu nhiu ln th khng thnh cng_password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_password'), 
     password)
 
-WebUI.click(findTestObject('Object Repository/Page_ng nhp - Ti khon Google/span_Tip theo'))
-
-WebUI.setText(findTestObject('Object Repository/Page_/input_Create a username_style__StyledInput-npkcpv-2 eJtFFl'), name)
-
-WebUI.click(findTestObject('Object Repository/Page_/button_Save and Continue'))
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Object Repository/Page_Sign in to GitHub  GitHub/input_Forgot password_commit'))
 

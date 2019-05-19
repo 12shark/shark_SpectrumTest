@@ -1,36 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Dang ky tai khoan bang Twitter</name>
+   <name>Dang nhap bang Github</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>a69c7273-d5cf-40ad-a256-4654aa0aa1ad</testCaseGuid>
+   <testCaseGuid>26397c98-124b-4125-8f05-800a320fdb57</testCaseGuid>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>51485cec-314f-4e88-b15f-53d3163e8e75</id>
+      <id>2c9366cf-3093-452f-b3dd-b5aa11e036a3</id>
       <masked>false</masked>
       <name>url</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>f0ecf60b-db5c-48aa-81a7-f46374d2e9bf</id>
+      <id>c0f09a23-2f5a-450c-b548-a210f8ecc9a0</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>c7618114-8bfb-439b-9d0d-96765d274867</id>
+      <id>2bac6838-3ae2-4ca3-a2d7-169dd0197d8e</id>
       <masked>false</masked>
       <name>password</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>7ff99a21-3886-4b72-a9de-454bfc77328c</id>
-      <masked>false</masked>
-      <name>name</name>
    </variable>
 </TestCaseEntity>

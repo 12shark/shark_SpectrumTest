@@ -13,7 +13,7 @@
    <testCaseLink>
       <guid>23cab1b0-3116-4a33-938a-07b39fe33ebe</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Dang ky tai khoan/Dang ky tai khoan bang Facebook</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -22,7 +22,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Dang ky bang Facebook_Internal</testDataId>
+         <testDataId>Data Files/Internal/Dang nhap bang Facebook</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>f962db26-0ba2-411f-b1f3-4d7755dd659d</testDataLinkId>
@@ -41,6 +41,111 @@
          <type>DATA_COLUMN</type>
          <value>password</value>
          <variableId>912a6db3-93c6-48ab-b3ae-0a873784e9b9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f962db26-0ba2-411f-b1f3-4d7755dd659d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>name</value>
+         <variableId>36547bbd-a55e-47da-a534-c954411419ad</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d2f53b33-f0db-478b-97aa-2fd25db3dcd3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dang ky tai khoan/Dang ky tai khoan bang GitHub</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>64da0c3f-426c-4554-aeb0-aef00b0476bf</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Internal/Dang nhap bang Github</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>64da0c3f-426c-4554-aeb0-aef00b0476bf</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>url</value>
+         <variableId>78f66a36-94bc-4b4e-a22e-8aa58786f17e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>64da0c3f-426c-4554-aeb0-aef00b0476bf</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>68c4200d-5d4a-427f-8509-d5f45adebe51</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>64da0c3f-426c-4554-aeb0-aef00b0476bf</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>16d0fc46-dec8-4b48-b06a-1a5376541969</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>64da0c3f-426c-4554-aeb0-aef00b0476bf</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>name</value>
+         <variableId>e24f24d9-292e-4714-a79a-abd91f6741f3</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b9022710-fac5-4e1e-af9f-63ab841e8117</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Dang ky tai khoan/Dang ky tai khoan bang Google</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c92fdf87-2ce9-4942-a54b-5a35e3a95b4a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a75417e9-39c5-4e22-8ed6-fab836ab9982</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1c8b6da0-d2fc-4d88-b253-eeb6aa39f674</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f1fd0639-a437-4eb7-b9d7-a70e3bd6df82</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>661b8842-5602-4e1f-8622-d64124060fa1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Dang ky tai khoan/Dang ky tai khoan bang Twitter</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>51485cec-314f-4e88-b15f-53d3163e8e75</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f0ecf60b-db5c-48aa-81a7-f46374d2e9bf</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c7618114-8bfb-439b-9d0d-96765d274867</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7ff99a21-3886-4b72-a9de-454bfc77328c</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

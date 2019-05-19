@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>Dang ky bang Facebook_Internal</name>
+   <name>Dang nhap bang Facebook</name>
    <tag></tag>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>9e3ba5b1-4341-47e9-b9a7-4871d8e323c0</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>spectrum.chat 0355766369 12FH%2B2FF7HnqKYAbf%2B0XZg%3D%3D</data>
+   <data>spectrum.chat 0355766369 12FH%2B2FF7HnqKYAbf%2B0XZg%3D%3D TestFB</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>url</name>
@@ -22,6 +22,11 @@
    <internalDataColumns>
       <columnIndex>2</columnIndex>
       <name>password</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>name</name>
       <size>1</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
